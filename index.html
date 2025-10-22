@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My website</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
   </head>
   <body>
     <header>
-      <nav>
+      <div class="logo">
         <h1>Logo</h1>
+      </div>
+
+      <nav>
         <ul>
           <li>
             <a href="">Home</a>
@@ -26,18 +29,39 @@
 
     <main>
       <section class="hero-section">
-        <h2>My Website</h2>
-        <div class="main-text">
-          <p>
-            This is a test website. <br />
-            I will update it the more experience i get <br />
-            <br />
-            <b>Anyways!</b> <br />
-            Have this blob to accompany you for the time being! They are real
-            nice.
-          </p>
+        <div class="home">
+          <h1>Home</h1>
         </div>
-        <img src="./blob.png" alt="" />
+        <div class="row">
+          <div class="column left">
+            <h2>Column 1</h2>
+            <div class="pages">
+              <li>
+                <a href="">Page 1</a>
+              </li>
+              <li>
+                <a href="">Page 2</a>
+              </li>
+              <li>
+                <a href="">Page 3</a>
+              </li>
+            </div>
+          </div>
+          <div class="column right">
+            <h2>Column 2</h2>
+            <img src="./blob.png" alt="Blob" class="blob-image" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur vero iste quos corrupti officiis voluptatibus quaerat
+              laudantium laborum quas deleniti incidunt sunt, tempore provident
+              voluptates eum sapiente accusamus nam hic. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Consectetur vero iste quos
+              corrupti officiis voluptatibus quaerat laudantium laborum quas
+              deleniti incidunt sunt, tempore provident voluptates eum sapiente
+              accusamus nam hic.
+            </p>
+          </div>
+        </div>
       </section>
     </main>
     <footer>

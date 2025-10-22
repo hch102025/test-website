@@ -1,56 +1,94 @@
 * {
   margin: 0px;
-  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 body {
-  background-color: aliceblue;
-  color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(228, 255, 255);
 }
 
-nav {
+/* ---------- Header Navigation -------------------- */
+
+header {
   display: flex;
   justify-content: center;
-  background-color: rgb(23, 29, 58);
-  flex-direction: row;
-  align-items: center;
+  background-color: rgb(17, 7, 59);
   padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  color: white;
 }
 
 ul {
-  list-style: none;
   display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 li {
-  margin-left: 20px;
-  letter-spacing: 1px;
+  padding: 20px;
 }
 
 a {
   text-decoration: none;
-  color: rgb(146, 126, 225);
+  color: rgb(104, 142, 246);
 }
 
 a:hover {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
-h2 {
+/* ---------- Main -------------------- */
+
+main {
   margin-top: 20px;
-  font-size: 35px;
 }
+
+.pages {
+  margin-left: 20px;
+}
+
+.home {
+  margin-left: 110px;
+}
+
+.blob-image {
+  margin-left: 400px;
+}
+
+.column {
+  margin-top: 20px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.left {
+  width: 20%;
+  background-color: rgb(187, 232, 255);
+}
+
+.right {
+  width: 1133px;
+  background-color: rgb(172, 222, 255);
+}
+
+/* ---------- Footer -------------------- */
 
 footer {
-  background-color: rgb(27, 19, 64);
+  background-color: rgb(4, 7, 71);
+  color: white;
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: absolute;
   width: 100%;
-  bottom: 0%;
-  padding: 10px;
+  bottom: 0px;
+  padding-bottom: 30px;
 }
 
 footer ul {
@@ -60,18 +98,4 @@ footer ul {
 
 footer li {
   display: inline-block;
-  margin: 0 10px;
-}
-
-.hero-section {
-  color: black;
-  text-align: center;
-}
-
-.main-text {
-  margin-top: 20px;
-}
-
-.us-info {
-  margin-top: 10px;
 }
